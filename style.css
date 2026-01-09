@@ -46,7 +46,7 @@ body {
 #Banner-Section {
   width: 100%;
   min-height: 670px;
-  background: url("./images/hero-bg.png");
+  background: url("../images/hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,4 +143,73 @@ body {
   margin-bottom: 2px;
   height: 20px;
   width: 20px;
+}
+#notes-section {
+  width: 90%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #fbfbfb;
+  margin-bottom: 100px;
+}
+.notes-container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.notes-container .subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #627382;
+  margin-bottom: 64px;
+}
+.card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.note-card {
+  max-width: 320px;
+  min-height: 250px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+.note-card .card-img {
+  background-color: #f95555;
+  height: 60px;
+  width: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img img {
+  height: 24px;
+  width: 24px;
+  align-items: center;
+}
+.note-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 15px;
+}
+.note-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #627382;
+  text-align: center;
+  padding: 0 16px;
+  margin-bottom: 24px;
 }
