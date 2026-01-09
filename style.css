@@ -7,6 +7,16 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+.hover-btn:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+}
+.note-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+}
 /* main css  */
 #Navbar-Section {
   width: 90%;
@@ -228,7 +238,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.section-message {
+#section-message {
   font-size: 16px;
   font-weight: 500;
   color: #469165;
