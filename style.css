@@ -217,6 +217,7 @@ body {
   width: 90%;
   max-width: 1350px;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 .brain-section-container {
   display: flex;
@@ -258,5 +259,47 @@ body {
 }
 .brain-info ul li img {
   margin-right: 12px;
+  vertical-align: middle;
+}
+#challenge-section {
+  width: 90%;
+  max-width: 1350px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+}
+#challenge-section h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#challenge-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 20px;
+}
+#challenge-section button {
+  padding: 12px 16px;
+  background-color: #469165;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+#challenge-section button a {
+  text-decoration: none;
+  color: white;
+}
+#challenge-section button img {
+  margin-left: 8px;
+  margin-bottom: 2px;
   vertical-align: middle;
 }
